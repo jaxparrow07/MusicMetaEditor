@@ -40,47 +40,46 @@ There are different version of Id3 such as ID3v1, ID3v2 ( v22,v23,v24 ). Id3v1 i
 ### Properties ( Id3 Tags )
 *Note : Album Art Accepts only **actual file path** and not **Uri** for now.*
 
-*TO-DO : Notes for all TAGS* 
 
-| Tag ( Property )    | Type | Notes ( if any ) |
+| Tag ( Property )    | Type | Description/Notes |
 |--------------------------|-------------------|-----------------|
-| **Title**   | String
-| **Album** | String
-| **Artist** | String
-| **Artist Url** | String |
-| **Track** | String
-| **Genre** | int | Refer to [Genre list](https://en.wikipedia.org/wiki/ID3#Genre_list_in_ID3v1[12])
-| **Genre Description** | String
-| **Composer** | String
+| **Title**   | String | Song name |
+| **Album** | String | Album name |
+| **Artist** | String | Artist/Band name |
+| **Artist Url** | String | Link to his website or socials |
+| **Track** | String | Track number |
+| **Genre** | int | ( Use **Genre Description** to read and write genre as "string" ) Refer to [Genre list](https://en.wikipedia.org/wiki/ID3#Genre_list_in_ID3v1[12])
+| **Genre Description** | String | Genre in free string format
+| **Composer** | String | Composer Name
 | **BPM** | int | **B**eats **P**er **M**inute ( tempo/speed )
-| **Album Art** | String  |Path to the image file ( if needed to change ) |
-| **Album Artist** | String |
-| **Audio Source Url** | String |
-| **Audio File Url** | String |
-| **Commercial Url** | String |
-| **Copyright** | String |
-| **Date** | String |
-| **Year** | String |
-| **Encoder** | String |
-| **Grouping** | String |
-| **iTunes Comment** | String |
-| **Key** | String |
-| **Length** | int  |
-| **Lyrics** | String |
-| **Original Artist** | String |
-| **Part Of Set** | String |
-| **Payment Url** | String |
-| **Publisher** | String |
-| **Publisher Url** | String |
-| **Radio Station Url** | String |
-| **Url** | String |
-| **Wmp Rating** | String |
-| **has Padding** | bool |
-| **has Footer** | bool |
-| **has Unsynchronisation** | bool |
-| **is Compilation** | bool | 
-| **is Obselete Format ( read-only )** | bool |
-| **Version ( read-only )** | String |
+| **Album Art** | String  | Path to the image file ( if needed to change ) |
+| **Album Artist** | String | Arist of the entire album |
+| **Audio Source Url** | String | Source url of the audio |
+| **Audio File Url** | String | File url of the audio |
+| **Commercial Url** | String | Commercial url of the audio |
+| **Copyright** | String | Copyright text |
+| **Date** | String | N/A |
+| **Year** | String | N/A |
+| **Encoder** | String | Name of the encoding software/encoder |
+| **Grouping** | String | Grouping with other songs ( songs that are linked to each other in some ways ) |
+| **iTunes Comment** | String | Comments of iTunes ( music platform ) |
+| **Key** | String | Key ( Tone ) of the song ( more info : https://en.wikipedia.org/wiki/Key_(music) )
+| **Length** | int  | Length in milliseconds |
+| **Lyrics** | String | Lyrics of the song }
+| **Original Artist** | String | Name of the original artist ( don't know the diff. between artist and this )
+| **Part Of Set** | String | Part of a set if any ( don't know which data should be here )
+| **Payment Url** | String | Link to any payment page for the album/song |
+| **Publisher** | String | Publisher name |
+| **Publisher Url** | String | Any link to the publisher
+| **Radio Station Url** | String | Any link to the radion station |
+| **Url** | String | Link to this song |
+| **Wmp Rating** | String | **W**indows **M**edia **P**layer rating |
+| **has Padding** | bool | if the song has padding |
+| **has Footer** | bool | if the song has footer |
+| **has Unsynchronisation** | bool | if the song has unsynchronisation |
+| **is Compilation** | bool | if the song is a compilation
+| **is Obselete Format ( read-only )** | bool | if the file is obselete format |
+| **Version ( read-only )** | String | Version of the metadata ( id3 ) |
 
 
 
