@@ -86,7 +86,7 @@ There are different version of Id3 such as ID3v1, ID3v2 ( v22,v23,v24 ). Id3v1 i
 
 ## `📂` Downloads
 
-Extension  : Check ![Releases]()
+Extension  : Check ![Releases](https://github.com/jaxparrow07/MusicMetaEditor/releases)
 
 ## `ℹ️` Credits
 
