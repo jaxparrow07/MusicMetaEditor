@@ -5,7 +5,7 @@
 
 This extension is based on this library (**mp3agic**) : https://github.com/mpatric/mp3agic
 
-All the credits goes to the developer of this particular library. This library made life easier to change the get the tags.
+All the credits goes to the developer of this particular library.
 
 You can use this extension in your Music Player to allow the user to change the audio info of songs ( like changing album art, title, artist etc.,. ) like most recent music players do. The imagination is the limit.
 <br>
